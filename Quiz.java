@@ -1,5 +1,11 @@
+'''
+Created on : Oct 18th, 2021
+Author : Ishita G
+Abstract : A Quiz game that has a time attached to it!
 
-// ---------------------------- Quiz ----------------------------
+'''
+
+//Quiz
 import java.awt.event.*;
 import java.awt.*;
 import javax.swing.*;
@@ -10,7 +16,7 @@ public class Quiz implements ActionListener{
 								"Which company created Java?",
 								"Which year was Java created?",
 								"What was Java originally called?",
-								"Who is credited with creating Java?"
+								"Who is credited for creating Java?"
 							};
 	String[][] options = 	{
 								{"Sun Microsystems","Starbucks","Microsoft","Alphabet"},
@@ -142,7 +148,7 @@ public class Quiz implements ActionListener{
 		time_label.setForeground(new Color(255,0,0));
 		time_label.setFont(new Font("MV Boli",Font.PLAIN,16));
 		time_label.setHorizontalAlignment(JTextField.CENTER);
-		time_label.setText("timer >:D");
+		time_label.setText("Clock's ticking!");
 		
 		number_right.setBounds(225,225,200,100);
 		number_right.setBackground(new Color(25,25,25));
