@@ -148,7 +148,7 @@ public class Quiz implements ActionListener{
 		time_label.setForeground(new Color(255,0,0));
 		time_label.setFont(new Font("MV Boli",Font.PLAIN,16));
 		time_label.setHorizontalAlignment(JTextField.CENTER);
-		time_label.setText("Clock's ticking!");
+		time_label.setText("Timer >:D");
 		
 		number_right.setBounds(225,225,200,100);
 		number_right.setBackground(new Color(25,25,25));
