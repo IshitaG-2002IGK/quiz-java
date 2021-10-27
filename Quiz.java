@@ -16,13 +16,35 @@ public class Quiz implements ActionListener{
 								"Which company created Java?",
 								"Which year was Java created?",
 								"What was Java originally called?",
-								"Who is credited for creating Java?"
+								"Who is credited for creating Java?",
+								"AWS Stands for?",
+								" _________________ is a billing and account management service",
+								"How many buckets can you create in AWS by default?",
+								"What are the different types of instances?",
+								"Amazon S3 is which type of storage service?",
+								"Which of the following services are free in AWS?",
+								"EC2 Machine types define which of the following?",
+								"What is the name of AWS CEO or Chief?",
+								"What is a Redshift?",
+								"S3 stands for ____",
+								"In which year, Amazon Web Services founded?"
 							};
 	String[][] options = 	{
 								{"Sun Microsystems","Starbucks","Microsoft","Alphabet"},
 								{"1989","1996","1972","1492"},
 								{"Apple","Latte","Oak","Koffing"},
-								{"Steve Jobs","Bill Gates","James Gosling","Mark Zuckerburg"}
+								{"Steve Jobs","Bill Gates","James Gosling","Mark Zuckerburg"},
+								{"All Web Services","Amazon Web Services","Alternate Wired Service","Alchemy Web Service"},
+								{"Amazon Mechanical Turk","Multi-Factor Authentication","Amazon DevPay","Amazon Elastic MapReduce"},
+								{"100 buckets","200 buckets","110 buckets","125 buckets"},
+								{"General purpose","Computer Optimized","Storage Optimized","All of the above"},
+								{"Block","Object","Simple","Secure"},
+								{"AWS CodePipeline","AWS CodeCommit","AWS CodeBuild","All of the above"},
+								{"AWS Region","Core Count","User Location","None of the above"},
+								{"Jeff Bezos","Lisa Su","Denise Morrison","None of the above"},
+								{"Redshift is a big data warehouse product","A bigger RDS instance","Both A and B","None of the above"},
+								{"Simple Storage Service","Simple Storage Science","Side Storage Service","None of the following"},
+								{"2005","2006","2007","2008"}
 							};
 	char[] answers = 		{
 								'A',
